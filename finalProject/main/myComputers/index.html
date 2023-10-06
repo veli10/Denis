@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../advanced/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My computers</title>
+</head>
+
+<body>
+    <div class="computers">
+        <header class="border p-2">
+            <button id="main-page" class="btn btn-secondary">Main page</button>
+            <button id="new-computer" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#computer-making">New computer</button>
+        </header>
+        <main>
+            <table class="table table-bordered">
+                <thead>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Picture</th>
+                    <th>Price</th>
+                    <th>OS</th>
+                    <th>Actions</th>
+                </thead>
+                <!-- <tbody>
+                    <td>Id</td>
+                    <td>Name</td>
+                    <td>Picture</td>
+                    <td>Price</td>
+                    <td>OS</td>
+                    <td>
+                        <button id="edir-computer" class="btn btn-primary">Edit</button>
+                        <button id="remove-computer" class="btn btn-danger" onclick="removeButtonEvent">Remove</button>
+                    </td>    
+                </tbody> -->
+            </table>
+        </main>
+    </div>
+    <!-- computer making window -->
+    <div class="modal fade" id="computer-making" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">New computer</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="form" class="form was-validated">
+                        <div id="page1">
+                            <div id="category" class="info">
+                                <label for="category">Category</label>
+                                <input type="text" name="category" class="form-control" list="categories" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                                <datalist id="categories">
+                                    <option value="Acer">
+                                    <option value="Mac">
+                                    <option value="Lenovo">
+                                    <option value="Asus">
+                                    <option value="Hp">
+                                </datalist>
+                            </div>
+                            <div id="name" class="info">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" class="form-control" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                            </div>
+                            <div id="price" class="info">
+                                <label for="price">Price</label>
+                                <input type="text" name="price" class="form-control" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                            </div>
+                            <div id="describtion" class="info">
+                                <label for="describtion">Describtion</label>
+                                <input type="text" name="describtion" class="form-control" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                            </div>
+                            <div id="new" class="info">
+                                <label for="new">New</label>
+                                <input type="text" name="new" class="form-control" list="new" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                                <datalist id="new">
+                                    <option value="Yes">
+                                    <option value="No">
+                                </datalist>
+                            </div>
+                            <div id="image" class="info">
+                                <label for="image">Image</label>
+                                <input type="text" name="image" class="form-control" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                            </div>
+                        </div>
+                        <div id="page2">
+                            <div id="ram" class="info">
+                                <label for="ram">RAM (GB)</label>
+                                <input type="text" name="ram" class="form-control" list="ram-values" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                                <datalist id="ram-values">
+                                    <option value="2">
+                                    <option value="4">
+                                    <option value="6">
+                                    <option value="8">
+                                    <option value="10">
+                                    <option value="12">
+                                    <option value="14">
+                                    <option value="16">
+                                </datalist>
+                            </div>
+                            <div id="cpu" class="info">
+                                <label for="cpu">Central processing unit</label>
+                                <input type="text" name="cpu" class="form-control" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                            </div>
+                            <div id="perm-memory" class="info">
+                                <label for="perm-memory">Perm Memory (GB)</label>
+                                <input type="text" name="perm-memory" class="form-control" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                            </div>
+                            <div id="mem-type" class="info">
+                                <label for="mem-type">Type of perm memory</label>
+                                <input type="text" name="mem-type" class="form-control" list="types-of-perm-mem"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                                <datalist id="types-of-perm-mem">
+                                    <option value="HDD">
+                                    <option value="SSD">
+                                </datalist>
+                            </div>
+                            <div id="os" class="info">
+                                <label for="os">Operative System</label>
+                                <input type="text" name="os" class="form-control" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                            </div>
+                            <div id="video-card" class="info">
+                                <label for="video-card">Video card (GB)</label>
+                                <input type="text" name="video-card" class="form-control" required>
+                                <div class="invalid-feedback">
+                                    Please fill this box
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="img-preview-box">
+                        <strong>Image preview</strong>
+                        <img id="img-preview" src="" alt="Image preview will be shown here">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="save-changes" type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                    <button id="reset-info" type="button" class="btn btn-warning">Reset info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="computer-removing" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Are you sure you want to remove the computer?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    This action cannot be undone
+                </div>
+                <div class="modal-footer">
+                    <button id="remove-option-no" type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                    <button id="remove-option-yes" type="button" class="btn btn-danger" data-bs-dismiss="modal">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="img-preview-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Image</h1>
+                </div>
+                <div class="modal-body" id="modal-img-box">
+                    <img id="img-preview-modal-img" src="" alt="image will be here">
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../../advanced/bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

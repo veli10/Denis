@@ -1,0 +1,99 @@
+* {
+    
+}
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+header, #site {
+    padding: 0.5%;
+}
+
+#site {
+    height: 100%;
+}
+
+main {
+    height: 90%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#navigation-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    color: #ffffff;
+}
+
+#category-box {
+    width: 100%;
+    height: 94%;
+    overflow: auto;
+}
+
+.search-category {
+    padding: 4%;
+    width: 100%;
+    text-align: left;
+    background: grey;
+    border: 5px solid black;
+}
+
+#search-input {
+    display: block;
+}
+
+#computers-section {
+    height: 100%;
+    width: 74%;
+    background-image: url(../../img/paper.gif);
+    border-radius: 2%;
+    overflow: auto;
+    display: grid;
+    padding: 2%;
+    color: #ffffff;
+}
+.computer {
+    background: #000;
+    border-radius: 2%;
+    padding: 3%;
+}
+
+.tab-content .computers-category.active{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+#computer-category-box {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: scroll;
+}
+img{
+    width: 100%;
+}
+.computer img{
+    width: auto;
+    height: 154px;
+    display: block;
+    margin: 0 auto;
+}
+.nav-link {
+    padding: 5%;
+}
+.info {
+    visibility: hidden;
+    position: absolute;
+}
+/*
+    height and width for computers that will be "removed" so you will easily hide and show them
+    height: 50%
+    width: 30%
+*/

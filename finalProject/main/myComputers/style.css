@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    background-repeat: no-repeat;
+    width: 10%;
+}
+#page1, #page2{
+    width: 40%;
+}
+#save-changes, #reset-info{
+    width: 20%;
+}
+.modal-footer{
+    justify-content: flex-start;
+}
+#img-preview{
+    display: flex;
+    flex-direction: column;
+}
+#full-img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img-preview-modal-img {
+    width: 100%;
+}

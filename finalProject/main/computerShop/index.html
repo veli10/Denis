@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../advanced/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Computer shop</title>
+</head>
+
+<body>
+    <div id="site">
+        <header class="border">
+            <button id="main-page-btn" class="btn btn-secondary">Main page</button>
+        </header>
+        <main class="d-flex">
+            <section id="navigation-section">
+                <div id="searchbox" class="d-flex">
+                    <input class="form-control" type="text" name="search-input" id="search-input" placeholder="Search">
+                </div>
+                <div id="category-box">
+                    <div id="categories">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active" id="acer-tab" data-bs-toggle="pill" data-bs-target="#acer"
+                                type="button" role="tab" aria-controls="acer" aria-selected="true">Acer</button>
+                            <button class="nav-link" id="hp-tab" data-bs-toggle="pill" data-bs-target="#hp"
+                                type="button" role="tab" aria-controls="hp" aria-selected="false">Hp</button>
+                            <button class="nav-link" id="asus-tab" data-bs-toggle="pill" data-bs-target="#asus"
+                                type="button" role="tab" aria-controls="asus" aria-selected="false">Asus</button>
+                            <button class="nav-link" id="dell-tab" data-bs-toggle="pill" data-bs-target="#dell"
+                                type="button" role="tab" aria-controls="dell" aria-selected="false">Dell</button>
+                            <button class="nav-link" id="mac-tab" data-bs-toggle="pill" data-bs-target="#mac"
+                                type="button" role="tab" aria-controls="mac" aria-selected="false">Mac</button>
+                            <button class="nav-link" id="lenovo-tab" data-bs-toggle="pill" data-bs-target="#lenovo"
+                                type="button" role="tab" aria-controls="lenovo" aria-selected="false">Lenovo</button>
+                            <button class="nav-link" id="lg-tab" data-bs-toggle="pill" data-bs-target="#lg"
+                                type="button" role="tab" aria-controls="lg" aria-selected="false">LG</button>
+                            <button class="nav-link" id="casper-tab" data-bs-toggle="pill" data-bs-target="#casper"
+                                type="button" role="tab" aria-controls="casper" aria-selected="false">Casper</button>
+                            <button class="nav-link" id="fujitsu-tab" data-bs-toggle="pill" data-bs-target="#fujitsu"
+                                type="button" role="tab" aria-controls="fujitsu" aria-selected="false">Fujitsu</button>
+                            <button class="nav-link" id="nexus-tab" data-bs-toggle="pill" data-bs-target="#nexus"
+                                type="button" role="tab" aria-controls="nexus" aria-selected="false">Nexus</button>
+                            <button class="nav-link" id="samsung-tab" data-bs-toggle="pill" data-bs-target="#samsung"
+                                type="button" role="tab" aria-controls="samsung" aria-selected="false">Samsung</button>
+                            <button class="nav-link" id="tosbiha-tab" data-bs-toggle="pill" data-bs-target="#tosbiha"
+                                type="button" role="tab" aria-controls="tosbiha" aria-selected="false">Tosbiha</button>
+                            <button class="nav-link" id="sony-tab" data-bs-toggle="pill" data-bs-target="#sony"
+                                type="button" role="tab" aria-controls="sony" aria-selected="false">Sony</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="computers-section">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="computers-category tab-pane fade active show" id="acer" role="tabpanel"
+                        aria-labelledby="acer-tab" tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/acer.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/acer.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/acer.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/acer.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/acer.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="hp" role="tabpanel" aria-labelledby="hp-tab"
+                        tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/hp.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/hp.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/hp.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/hp.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/hp.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="asus" role="tabpanel" aria-labelledby="asus-tab"
+                        tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/asus.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/asus.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/asus.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/asus.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/asus.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="dell" role="tabpanel" aria-labelledby="dell-tab"
+                        tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/dell.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/dell.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/dell.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/dell.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/dell.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="mac" role="tabpanel" aria-labelledby="mac-tab"
+                        tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/mac.jpeg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/mac.jpeg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/mac.jpeg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/mac.jpeg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/mac.jpeg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="lenovo" role="tabpanel" aria-labelledby="mac-tab"
+                        tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/lenovo.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/lenovo.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/lenovo.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/lenovo.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/lenovo.jpg" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="lg" role="tabpanel" aria-labelledby="lg-tab"
+                        tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/lg.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/lg.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/lg.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/lg.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/lg.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="casper" role="tabpanel"
+                        aria-labelledby="casper-tab" tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/casper.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/casper.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/casper.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/casper.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/casper.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="fujitsu" role="tabpanel"
+                        aria-labelledby="fujitsu-tab" tabindex="0">
+                        <div id="fujitsu" class="tab-pane computer-category-box Fujitsu">
+                            <div class="computer">
+                                <img src="../../img/fujitsu.png" alt="">
+                                <h3 class="name">Name: </h3>
+                                <h3 class="describtion">Describtion: </h3>
+                                <h3 class="price">Price: </h3>
+                                <h3 class="new">New: </h3>
+                                <h3 class="phone">Phone: </h3>
+                                <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                                <div class="info">
+                                    <div class="category"></div>
+                                    <div class="name"></div>
+                                    <div class="price"></div>
+                                    <div class="describtion"></div>
+                                    <div class="new"></div>
+                                    <div class="image"></div>
+                                    <div class="ram"></div>
+                                    <div class="cpu"></div>
+                                    <div class="perm-memory"></div>
+                                    <div class="type-of-perm-memory"></div>
+                                    <div class="os"></div>
+                                    <div class="video-card"></div>
+                                    <div class="phone-number"></div>
+                                </div>
+                            </div>
+                            <div class="computer">
+                                <img src="../../img/fujitsu.png" alt="">
+                                <h3 class="name">Name: </h3>
+                                <h3 class="describtion">Describtion: </h3>
+                                <h3 class="price">Price: </h3>
+                                <h3 class="new">New: </h3>
+                                <h3 class="phone">Phone: </h3>
+                                <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                                <div class="info">
+                                    <div class="category"></div>
+                                    <div class="name"></div>
+                                    <div class="price"></div>
+                                    <div class="describtion"></div>
+                                    <div class="new"></div>
+                                    <div class="image"></div>
+                                    <div class="ram"></div>
+                                    <div class="cpu"></div>
+                                    <div class="perm-memory"></div>
+                                    <div class="type-of-perm-memory"></div>
+                                    <div class="os"></div>
+                                    <div class="video-card"></div>
+                                    <div class="phone-number"></div>
+                                </div>
+                            </div>
+                            <div class="computer">
+                                <img src="../../img/fujitsu.png" alt="">
+                                <h3 class="name">Name: </h3>
+                                <h3 class="describtion">Describtion: </h3>
+                                <h3 class="price">Price: </h3>
+                                <h3 class="new">New: </h3>
+                                <h3 class="phone">Phone: </h3>
+                                <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                                <div class="info">
+                                    <div class="category"></div>
+                                    <div class="name"></div>
+                                    <div class="price"></div>
+                                    <div class="describtion"></div>
+                                    <div class="new"></div>
+                                    <div class="image"></div>
+                                    <div class="ram"></div>
+                                    <div class="cpu"></div>
+                                    <div class="perm-memory"></div>
+                                    <div class="type-of-perm-memory"></div>
+                                    <div class="os"></div>
+                                    <div class="video-card"></div>
+                                    <div class="phone-number"></div>
+                                </div>
+                            </div>
+                            <div class="computer">
+                                <img src="../../img/fujitsu.png" alt="">
+                                <h3 class="name">Name: </h3>
+                                <h3 class="describtion">Describtion: </h3>
+                                <h3 class="price">Price: </h3>
+                                <h3 class="new">New: </h3>
+                                <h3 class="phone">Phone: </h3>
+                                <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                                <div class="info">
+                                    <div class="category"></div>
+                                    <div class="name"></div>
+                                    <div class="price"></div>
+                                    <div class="describtion"></div>
+                                    <div class="new"></div>
+                                    <div class="image"></div>
+                                    <div class="ram"></div>
+                                    <div class="cpu"></div>
+                                    <div class="perm-memory"></div>
+                                    <div class="type-of-perm-memory"></div>
+                                    <div class="os"></div>
+                                    <div class="video-card"></div>
+                                    <div class="phone-number"></div>
+                                </div>
+                            </div>
+                            <div class="computer">
+                                <img src="../../img/fujitsu.png" alt="">
+                                <h3 class="name">Name: </h3>
+                                <h3 class="describtion">Describtion: </h3>
+                                <h3 class="price">Price: </h3>
+                                <h3 class="new">New: </h3>
+                                <h3 class="phone">Phone: </h3>
+                                <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                                <div class="info">
+                                    <div class="category"></div>
+                                    <div class="name"></div>
+                                    <div class="price"></div>
+                                    <div class="describtion"></div>
+                                    <div class="new"></div>
+                                    <div class="image"></div>
+                                    <div class="ram"></div>
+                                    <div class="cpu"></div>
+                                    <div class="perm-memory"></div>
+                                    <div class="type-of-perm-memory"></div>
+                                    <div class="os"></div>
+                                    <div class="video-card"></div>
+                                    <div class="phone-number"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade computer-category-box" id="nexus" role="tabpanel"
+                        aria-labelledby="nexus-tab" tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/nexus.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/nexus.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/nexus.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/nexus.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/nexus.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="samsung" role="tabpanel"
+                        aria-labelledby="samsung-tab" tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/samsung.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/samsung.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/samsung.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/samsung.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/samsung.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="tosbiha" role="tabpanel"
+                        aria-labelledby="tosbiha-tab" tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/tosbiha.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/tosbiha.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/tosbiha.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/tosbiha.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/tosbiha.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="computers-category tab-pane fade" id="sony" role="tabpanel" aria-labelledby="sony-tab"
+                        tabindex="0">
+                        <div class="computer">
+                            <img src="../../img/sony.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/sony.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/sony.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/sony.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                        <div class="computer">
+                            <img src="../../img/sony.png" alt="">
+                            <h3 class="name">Name: </h3>
+                            <h3 class="describtion">Describtion: </h3>
+                            <h3 class="price">Price: </h3>
+                            <h3 class="new">New: </h3>
+                            <h3 class="phone">Phone: </h3>
+                            <button class="details-button btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#computer-details" onclick="detailsModalCall(this)">Details</button>
+                            <div class="info">
+                                <div class="category"></div>
+                                <div class="name"></div>
+                                <div class="price"></div>
+                                <div class="describtion"></div>
+                                <div class="new"></div>
+                                <div class="image"></div>
+                                <div class="ram"></div>
+                                <div class="cpu"></div>
+                                <div class="perm-memory"></div>
+                                <div class="type-of-perm-memory"></div>
+                                <div class="os"></div>
+                                <div class="video-card"></div>
+                                <div class="phone-number"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="computer-details" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Computer details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="font-size: 2em;">
+                    <img src="" alt="the img">
+                    <div class="phone-number">
+                        Phone:
+                    </div>
+                    <div class="category">
+                        Category:
+                    </div>
+                    <div class="name">
+                        Name:
+                    </div>
+                    <div class="price">
+                        Price:
+                    </div>
+                    <div class="describtion">
+                        Describtion:
+                    </div>
+                    <div class="new">
+                        New:
+                    </div>
+                    <div class="ram">
+                        RAM:
+                    </div>
+                    <div class="cpu">
+                        CPU:
+                    </div>
+                    <div class="memory">
+                        Pernament memory:
+                    </div>
+                    <div class="type-of-memory">
+                        Type of perm memory:
+                    </div>
+                    <div class="os">
+                        OS:
+                    </div>
+                    <div class="video-card">
+                        Video card:
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../../advanced/jquery.js"></script>
+    <script src="../../advanced/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
